@@ -3,7 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Nikhil Akiti's Portfolio</title>
-        <script src=""></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            section {
+                border-bottom: 1px solid #eee;
+                padding: 20px 0;
+            }
+        </style>
     </head>
 
     <body>
@@ -42,26 +48,30 @@
                     <div>
                         <project-card>
                             <picture>
-                                <source media="(min-width: 650px)" srcset="https://placehold.co/800x400/e2e8f0/334155?text=Project+Alpha+Large">
-                                <img src="https://placehold.co/600x400/e2e8f0/334155?text=Project+Alpha" alt="Screenshot of Project Alpha">
+                                <source media="(min-width: 650px)" srcset="https://placehold.co/800x400/">
+                                <img src="https://placehold.co/600x400/" alt="Screenshot of Project One">
                             </picture>
                             <div>
-                                <h3>Project Alpha</h3>
-                                <p>A full-stack social media application built with the MERN stack, featuring real-time chat and notifications.</p>
+                                <h3>Project Title</h3>
+                                <p>Project Description</p>
                                 <ol>
                                     <li>Feature One</li>
                                     <li>Feature Two</li>
                                 </ol>
-                                <a href="project-alpha.html">Learn More &rarr;</a>
+                                <a href="link">Learn More &rarr;</a>
                             </div>
                         </project-card>
 
                         <article>
-                            <img src="https://placehold.co/600x400/e2e8f0/334155?text=Project+Beta" alt="Screenshot of Project Beta">
+                            <img src="https://placehold.co/600x400/" alt="Screenshot of Project">
                             <div>
-                                <h3>Project Beta</h3>
-                                <p>A data visualization tool that tracks <b>global economic trends</b> using D3.js and <i>a public REST API</i>.</p>
-                                <a href="project-beta.html">Learn More &rarr;</a>
+                                <h3>Project Title</h3>
+                                <p>Project Description</p>
+                                <ol>
+                                    <li>Feature One</li>
+                                    <li>Feature Two</li>
+                                </ol>
+                                <a href="link">Learn More &rarr;</a>
                             </div>
                         </article>
                     </div>
@@ -70,7 +80,11 @@
             <section id="technologies">
                 <div>
                     <h2>Language Proficiency</h3>
-                    <div class="skill-list">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                    <div>
                         <span>
                             <label>Python:</label>
                             <progress value="90" max="100"> 90% </progress>
@@ -122,11 +136,14 @@
                         <a href="">GitHub</a>
                     </li>
                     <li>
-                        <a href="mailto:jane.doe@example.com">Email</a>
+                        <a href="mailto:email">Email</a>
                     </li>
                 </ul>
                 <br>
                 <p>2025 Nikhil Akiti. All rights reserved.</p>
+                <noscript>
+                    <p>Please enable JavaScript for the best experience on this site.</p>
+                </noscript>
                 <hello-world></hello-world>
             </div>
         </footer>
